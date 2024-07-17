@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    background-color: #FF6363;
+}
+
+h1 {
+    color: white;
+    padding-top: 10px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    background-color: #558272;
+    text-align: center;
+}
+
+#torta {
+    float: left;
+    color: white;
+    border-right: solid 1px white;
+}
+
+#yakisoba {
+    float: right;
+    color: black;
+    background-color: #9AD3BF;
+    border-left: solid 1px white;
+}
+
+.botao {
+    width: 50%;
+    height: 100%;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.823);
+}
+
+#imagem-torta {
+    float: left;
+    width: 635px;
+    height: 420px;
+    padding-top: 90px;
+    padding-left: 85px;
+}
+
+#texto-torta {
+    float: right;
+    padding-top: 165px;
+    padding-right: 55px;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+footer {
+    width: 100%;
+    height: 8%;
+    background-color: #414141;
+}
+
+#pl {
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#ts {
+    float: right;
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+span a {
+    color: white
+}
+
+#yakisoba:hover {
+    background-color: black;
+    color: #9AD3BF;
+}
+
+body {
+    background-image: url(./imgs/fundo.jpeg);
+}
+
+
+
+
+

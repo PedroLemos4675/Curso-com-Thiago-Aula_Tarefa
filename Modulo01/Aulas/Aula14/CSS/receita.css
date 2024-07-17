@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    background: #FFB800;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4.5rem;
+    padding-top: 2.2rem;
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav {
+    width: 25rem;
+    background: #FFF5BE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: calc(100% - (10rem + 5rem));
+}
+
+
+main {
+    width: calc(100% - 25rem);
+    padding: 2.5rem;
+    text-align: center;
+    min-height: calc(100% - (10rem + 5rem));
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    background: #FF993B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.3rem 2.5rem 1.4rem 2.5rem;
+}
+
+span {
+    color:black;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer span a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+}
+
+
+main div {
+    width: 100%;
+    text-align: center;
+    margin-left: 1.5rem;
+}
+
+
+ .pt1 h3, .pt2 h3 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+ }
+
+ h2 {
+    font-size: 2.5rem;
+    padding-bottom: 3.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .pt1 p {
+    font-size: 2rem;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 47rem;
+ }
+
+ .pt2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+ }
+ 
+ .pt2 p {
+    font-size: 2rem;
+    text-align: justify;
+    padding-bottom: 3.3rem;
+ }
+
+ main span {
+    text-align: center;
+    margin-left: 24rem;
+ }
+
+nav ul {
+    width: 100%;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+nav ul li {
+    width: 100%;
+    height: 7.5rem;
+    padding-top: 2.5rem;
+}
+
+nav ul li:hover {
+    background-color: #FFB800;
+    transition: 0.5s ease-in-out
+
+}
+
+.pt1, .pt2 {
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3.3rem;
+}

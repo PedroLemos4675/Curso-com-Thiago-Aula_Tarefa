@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulário..css">
+</head>
+<body>
+    <header>
+        <img src="./imgs/logotipo.png">
+        <a href="index.html"><button class="botao">Voltar à lista de campos</button></a>
+    </header>
+
+    <main>
+        <article>
+            <p>
+                Muito legal você se interessar em nos enviar seu campo de flores para incluir na página! Saiba que apreciamos muito os 
+                belos campos de flores e outras plantas. Para que nosso site mantenha a qualidade de conteúdo, analisamos as imagens
+                e descrições enviadas para nós, antes de permitir que estejam na amostra, na página principal. O feedback de seu envio 
+                será retornado em seu e-mail. Desde já, agradecemos o interesse.
+            </p>
+            <br>
+            <br>
+            <p>
+                Seja responsável e capriche! Ficaremos felizes de analisar seus belos campos!
+            </p>
+        </article>
+
+        <form>
+            <div id="part1">
+                <h2>Contato</h2>
+                <div class="inputs">
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" id="nome" placeholder="Ex: Pedro Augusto Ferreira de Souza Lemos">
+                </div>
+
+                <div class="inputs">
+                    <label for="email">Seu e-mail:</label>
+                    <input type="email" id="email" placeholder="Ex: pedrolemos4675@gmail.com">
+                </div>
+            </div>
+
+        <div class="part2">
+            <h2>Seu campo</h2>
+            <div class="inimg">
+                <label>Insira a imagem do seu campo:</label> <br>
+                <div class="divisao">
+                    <input type="file"></div>
+            </div>
+
+            <div class="descreva">
+                <label for="campo-de-texto">Descreva seu campo:</label> <br>
+                <textarea id="campo-de-texto" placeholder="Crie uma bela descrição curta sobre o campo que está nos enviando.
+
+Por exemplo:
+Um vasto campo de lírios brancos e laranjas se estende até o horizonte, onde o sol dourado toca delicadamente as pétalas vibrantes. Os lírios brancos irradiam pureza e serenidade, enquanto os lírios laranjas trazem um toque de energia e vitalidade. Juntos, eles dançam suavemente ao sabor da brisa, criando um espetáculo harmonioso de cores e fragrâncias, transformando o campo em um refúgio de beleza e paz.
+
+Sugestões para seu texto: Descreva o campo com palavras bonitas. Conte a história do campo. Chame atenção para momentos ou paisagens que ele cria."></textarea>
+            </div>
+        </div>
+
+        <div class="botoes">
+            <button class="b1" type="reset"><img src="./imgs/resetzin.svg" alt="Resetar"></button>
+            <button class="b2" type="submit"><img src="./imgs/aviaozin.svg" alt="Enviar"></button>
+        </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="info">
+            <div class="lista">
+                <ul class="l1"> 
+                    <strong>Conteúdo</strong>
+                        <li><a href="#text1">Fluorecência</a></li>
+                        <li><a href="#text2">Campópolis</a></li>
+                        <li><a href="#text3">Larmenho</a></li>
+                </ul>
+            
+                <ul class="l1">
+                    <strong>Contribua</strong>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Compartilhe um campo</a></li>
+                </ul>
+            </div>
+                <img src="./imgs/logotipo.png">
+        </div>
+
+        <div id="links">
+            <span id="pl" class="tp">Desenvolvido por: <a class="link" href="https://github.com/PedroLemos4675">Pedro Lemos</a></span>
+            <span id="ts" class="tp">Curso de Desenvolvimento Web e Programação com: <a class="link" href="https://github.com/Thiago-Henrique-Santos">Thiago Santos</a></span>
+        </div>
+    </footer>
+
+</body>
+</html>

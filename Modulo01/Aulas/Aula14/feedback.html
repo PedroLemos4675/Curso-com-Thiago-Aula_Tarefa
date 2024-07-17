@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./CSS/feedback.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Cuscuz de milho</h1>
+    </header>
+
+    <div class="meio">
+        <nav>
+            <ul>
+                <a href="./index.html"><li>Página inicial</li></a>
+                <a href="./receita.html"><li>Receita</li></a>  
+                <a href="./nafrigideira.html"><li>Na frigideira</li></a>
+                <a href=""><li>Feedback</li></a>
+            </ul>
+        </nav>
+
+        <main>
+            <form>
+                <div class="linha"><label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+
+                <div class="linha">
+                    <div class="ce">
+                        <label for="estado">Estado:</label>
+                        <select id="estado">
+                            <option value="none">Selecione</option>
+                            <option value="ac">Acre</option>
+                            <option value="al">Alagoas</option>
+                            <option value="ap">Amapá</option>
+                            <option value="am">Amazonas</option>
+                            <option value="ba">Bahia</option>
+                            <option value="ce">Ceará</option>
+                            <option value="df">Distrito Federal</option>
+                            <option value="es">Espírito Santo</option>
+                            <option value="go">Goiás</option>
+                            <option value="ma">Maranhão</option>
+                            <option value="mt">Mato Grosso</option>
+                            <option value="ms">Mato Grosso do Sul</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="pa">Pará</option>
+                            <option value="pb">Paraíba</option>
+                            <option value="pr">Paraná</option>
+                            <option value="pe">Pernambuco</option>
+                            <option value="pi">Piauí</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="rn">Rio Grande do Norte</option>
+                            <option value="rs">Rio Grande do Sul</option>
+                            <option value="ro">Rondônia</option>
+                            <option value="rr">Roraima</option>
+                            <option value="sc">Santa Catarina</option>
+                            <option value="sp">São Paulo</option>
+                            <option value="se">Serjipe</option>
+                            <option value="to">Tocantins</option>
+                        </select> 
+                    </div>
+
+                    <div class="ce">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade">
+                    </div>
+                </div>
+
+                <div class="linha">
+                    <div class="feedback" id="radios">
+                        <label>Já conhecia o cuscuz?</label>
+                        <input type="radio" id="sim">
+                        <label for="sim">Sim</label>
+                        <input type="radio" id="nao">
+                        <label for="nao">Não</label>
+                    </div>
+
+                    <div class="feedback">
+                        <label for="qual">Qual?</label>
+                        <select id="qual">
+                            <option value="none">Selecione</option>
+                            <option value="nr">Nordestino</option>
+                            <option value="sp">Paulista</option>
+                            <option value="mc">Marroquino</option>
+                        </select>
+                        
+                    </div>
+                </div>
+
+                <div class="opiniao">
+                    <label for="txt">O que achou de nossa página?</label>
+                    <textarea id="txt"></textarea>
+                </div>
+
+                <div class="botao">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Resetar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    
+        <footer>
+            <span>Desenvolvido por: <a href="https://github.com/PedroLemos4675">Pedro Lemos</a></span>
+            <span>Curso de Desenvolvimento Web e Programação com: <a href="https://github.com/Thiago-Henrique-Santos">Thiago Santos</a></span>
+        </footer>
+</body>
+</html>

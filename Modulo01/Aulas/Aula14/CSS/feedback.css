@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+header {
+    width: 100%;
+    height: 10rem;
+    background: #FFB800;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    padding-top: 2.2rem;
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100% - (10rem + 5rem));
+}
+
+nav {
+    width: 25rem;
+    text-align: center;
+    background: #FFF5BE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+nav ul li {
+    width: 100%;
+    height: 7.5rem;
+    padding-top: 2.5rem;
+}
+
+nav ul li:hover {
+    background-color: #FFB800;
+    transition: 0.5s ease-in-out
+}
+
+
+
+main {
+    width: calc(100% - 25rem);
+    text-align: center;
+    padding: 2rem;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.linha {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 2rem;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.linha input {
+    width: 112.5rem;
+    height: 100%;
+}
+
+.ce, .feedback {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.ce input, .ce select, .feedback select  {
+    width: 48rem;
+    height: 100%;
+    border-radius: 1rem;
+    border: 1px solid gray
+}
+
+.feedback input[type="radio"] {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+#radios {
+    justify-content: flex-start;
+}
+
+#radios label {
+    margin-right: 3rem;
+}
+
+input, textarea {
+    border-radius: 1rem;
+    border: 1px solid gray;
+    padding: 0.5rem;    
+}
+
+input[type="text"], textarea, select {
+    background: #F6F6F6;
+}
+
+.opiniao {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+textarea {
+    width: 100%;
+    height: 29.2rem;
+    max-width: 100%;
+    margin-top: 1rem;
+}
+
+.botao {
+    width: 34rem;
+    height: 4.2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.botao button {
+    width: 14.5rem;
+    height: 100%;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.botao button[type="submit"] {
+    background: #2FC33E;
+}
+
+.botao button[type="reset"] {
+    background: #FF4343;
+
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    background: #FF993B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.3rem 2.5rem 1.4rem 2.5rem;
+}
+
+footer span {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer span a {
+    color: black;
+    font-weight: bold;
+}
