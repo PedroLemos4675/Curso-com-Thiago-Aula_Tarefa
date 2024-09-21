@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Righteous&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    background-color: #202020;
+}
+
+
+#svg {
+    height: 7.3rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+nav {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(49,49,49);
+}
+    
+nav div {
+    width: 100% ;
+    height: 10rem;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 2.3rem;
+    color: white;
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    background: rgb(49,49,49);
+    background: linear-gradient(53deg, rgba(49,49,49,1) 47%, rgba(255,255,255,1) 49%, rgba(151,151,151,1) 51%, rgba(151,151,151,1) 62%, rgba(255,255,255,1) 64%, rgba(49,49,49,1) 66%);
+    background-size: 250%;
+}
+
+nav a {
+    width: 100%;
+    text-decoration: none;
+}
+
+#casuais {
+    border-right: solid 1px white;
+}
+
+
+#luxo {
+    border-left: solid 1px white;
+}
+
+nav div:hover {
+    animation: hover 0.7s forwards linear;
+}
+
+
+main {
+    width: 100%;
+    min-height: calc(100% - (10rem + 34.3rem));
+}
+
+.slides {
+    background: url("../slideshow/carros_preto_e_branco.jpg");
+    width: 100%;
+    height: 40.4rem;
+    background-size: cover;
+    background-position: center;
+    animation: slides 6s ease-in-out infinite;
+    
+}
+
+#boas-vindas {
+    width: 100%;
+    height: 40rem;
+    padding: 4.2rem 9rem 4.4rem 9rem;
+}
+
+#boas-vindas h1 {
+    text-align: center;
+    color: black;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 7rem;
+    margin-right: 6rem;
+}
+
+#boas-vindas p {
+    font-size: 2.8rem;
+    margin-top: 2.5rem;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+}
+
+.seta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 6rem;
+}
+
+.arrow {
+    opacity: 0;
+    animation: arrowsopacity 1.5s infinite;
+}
+
+.arrow:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.arrow:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.arrow:nth-child(3) {
+    animation-delay: 1s;
+}
+
+#pt2 {
+    background: linear-gradient(180deg, #D0D0D0 0%, #313131 100%);
+    width: 100%;
+}
+
+h1 {
+    font-family: "Krona One";
+    color: white;
+    margin-left: 9rem;
+    font-size: 5rem;
+}
+
+article section h1 {
+    color: black;
+    text-align: center;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3.5rem;
+}
+
+section img {
+    width: 60rem;
+    height: auto;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+section p {
+    font-size: 3rem;
+    color: black;
+    font-family: "Roboto";
+    text-align: justify;
+    width: 50rem;
+}
+
+
+#text-white {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 34.3rem;
+    background-color: #202020;
+    display: flex;
+    flex-direction: row;
+
+ }
+
+#div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-left: 7rem; 
+}
+
+
+#div1 a {
+    color: white;
+    font-weight: bold;
+}
+
+#div2 {
+    color: white;
+    text-align: justify;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+ @keyframes slides {
+
+    0%, 25% {
+        background: url("../slideshow/carros_preto_e_branco.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    26%, 50% {
+        background: url("../slideshow/carro_prata.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    51%, 75% {
+        background: url("../slideshow/carro_audi.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    76%, 100% {
+        background: url("../slideshow/carro_amarelo.jpg");
+        background-size: cover;
+        background-position: bottom;
+    }
+}
+
+@keyframes hover {
+   from {background-position: right;}
+
+   to {
+    background-position: left;
+   }
+}
+
+
+@keyframes arrowsopacity {
+    0% { opacity: 0;}
+
+    50% {opacity: 1;}
+
+    100% {opacity: 0;}
+
+}
